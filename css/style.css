@@ -1,0 +1,80 @@
+@font-face{
+   font-family: "avant"; 
+   src: url(/font/avant-garde-bt-bold.ttf);
+}
+@font-face{
+    font-family: "quicksand"; 
+    src: url(/font/Quicksand/Quicksand-Light.ttf);
+ }
+header{
+    width: 100%;
+    height: 120px;
+   
+    display: flex;
+}
+.container-fluid{
+    display: flex;
+}
+.container-logo{
+    width: 40%;
+    height: 110px;
+  
+}
+.logo img{
+    max-width: 65%;
+    margin: 2%;
+    height: auto;
+    display: block;
+
+}
+.container-nav{
+    width: 50%;
+    margin-left: 10%;
+    display: grid;
+    align-items: flex-end;
+}
+
+.container-nav a{
+    font-size: 22px;
+    color: #0b8637;
+    font-family: quicksand;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+.container-nav a:hover{
+    color: #f8a203;
+}
+.carousel{
+    margin-top: 12px;
+}
+.carousel-item{
+    height: 450px;
+}
+.icons{
+    width: 100%;
+}
+.container-icon{
+    display: flex;
+}
+.container-icon .icon{
+    width: calc(100% - 100px);
+    text-align: center;
+    margin-top: 2%;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.164);
+    opacity: 0.6;
+    font-family: quicksand;
+}
+.container-icon > .icon:hover{
+    background-color: rgba(59, 58, 58, 0.479);
+    border-radius: 10px;
+    transition: 1.2s ;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+    opacity: 1;
+}
+.container-form{
+    width: 100%;
+    height: 500px;
+    background-color: #0b8637;
+}
